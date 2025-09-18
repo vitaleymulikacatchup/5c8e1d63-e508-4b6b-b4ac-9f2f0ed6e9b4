@@ -40,7 +40,7 @@ export default function Home() {
           title="Tokenomics"
           description="Explore our token distribution and economic model to support growth."
           kpiItems={[
-            { value: "10M", description: "Total Supply", longDescription: "Total supply of tokens in circulation.", icon: LucideIcon }
+            { value: "10M", description: "Total Supply", longDescription: "Total supply of tokens in circulation.", icon: { /* Replace with appropriate icon */ } }
           ]}
         />
       </div>
@@ -74,7 +74,7 @@ export default function Home() {
             ] }
           ]}
           copyrightText="© 2023 MemCoin X"
-          onPrivacyClick={() => {}} // Add privacy link handling
+          onPrivacyClick={() => {}} 
         />
       </div>
     </SiteThemeProvider>
